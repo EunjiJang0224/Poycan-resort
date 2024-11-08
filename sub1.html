@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accomodation</title>
+    <link rel="stylesheet" href="./CSS/style2.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- swiper_jquery -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- google cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src='js/jquery-ui.min.js'></script>
+    <script src="js/banner.js"></script>
+    <script src="./js/hamburger.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div id="header">
+        <ul id="header_l">
+            <li class="logo"><a href="#"><img src="./images/logo_w.png" alt="logo"></a></li>
+            <li class="hotel"><a href="#">HOTELS</a>
+                <ul class="sub">
+                    <li><a href="#">Busan,Korea</a></li>
+                    <li><a href="#">Ubud,Indonesia</a></li>
+                    <li><a href="#">Kyoto,Japan</a></li>
+                    <li><a href="#">Savannah,USA</a></li>
+                    <li><a href="#">Venice,Italy</a></li>
+                </ul>
+            </li>
+            <!-- background -->
+        </ul>
+        <div class="search-box">
+            <input type="text" placeholder="search">
+            <a href="#"><img src="./images/search.png" alt="search"></a>
+        </div>
+        <ul id="header_r">
+            
+            <li><a href="./sub1.html">ACCOMODATION</a></li>
+            <li><a href="#">FACILITIES</a></li>
+            <li><a href="#">DINING</a></li>
+            <li><a href="#">E-SHOP</a></li>
+            
+            <li><a href="#"><img src="./images/icon_globe_w.png" alt="globe"></a></li>
+
+        </ul>
+    </div>
+    <!-- header_E -->
+     <!-- text flow_S -->
+      <div id="textflow">
+      </div>
+      <!-- text flow_E -->
+    <!-- banner_S -->
+    <div id="banner">
+        <!-- 높이 870 배경 -->
+        <h2 class="banner_title">EMBRACE THE LEISURE
+            <br>UNBOUND BY TIME
+        </h2>
+        <!-- swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/banner_img.png" alt="banner1"></div>
+                <div class="swiper-slide"><img src="./images/banner1.jpg" alt="banner2"></div>
+                <div class="swiper-slide"><img src="./images/wooden-path-in-luxury-resort-in-tropical-forest-free-photo.webp" alt="banner3"></div>
+                <div class="swiper-slide"><img src="./images/banner5.jpg" alt="banner4"></div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+        <p class="rate_button"><a href="#">CHECK RATE</a></p>
+        <!-- fixed_nav -->
+        <ul class="fixed_nav">
+            <li><a href="#">
+                    <img src="./images/icon_login.png" alt="login">
+                    <p>LOG IN</p>
+                </a></li>
+            <li><a href="#">
+                    <img src="./images/icon_check.png" alt="login">
+                    <p>CHECK</p>
+                </a></li>
+            <li><a href="#">
+                    <img src="./images/icon_phone.png" alt="login">
+                    <p>CONTACT</p>
+                </a></li>
+            <li><a href="#">
+                    <img src="./images/icon_place.png" alt="login">
+                    <p>LOACTION</p>
+                </a></li>
+
+        </ul>
+        <!-- 예약폼 만들기 -->
+        <div class="notice">
+            <h3 class="input_title">CHECK IN &ndash; CHECK OUT</h3>
+            <ul>
+                <li>
+                    <div class="title">
+                        <div class="title_in">CHECK IN &ndash; CHECK OUT</div>
+                        <div class="plus"><img src="./images/icon_arrow.png" alt="plus"></div>
+                    </div>
+                    <div class="text_info">
+                        공지사항내용입니다<br>
+                        공지사항내용입니다<br>
+                        공지사항내용입니다<br>
+                        공지사항내용입니다<br>
+                        공지사항내용입니다<br>
+                        공지사항내용입니다<br>
+                    </div>
+                </li>
+                <h3 class="input_title">GUESTS</h3>
+
+                <li>
+                    <div class="title">
+                        <div class="title_in">GUESTS</div>
+                        <div class="plus"><img src="./images/icon_arrow.png" alt="plus"></div>
+                    </div>
+                    <div class="text_info">
+                        <div class="count_box">
+                            <p>ROOM1 </p>
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- banner_E -->
+     <!-- contents_S -->
+      <div id="contents1">
+        <div class="con1_flexbox">
+            <div class="img_wrap"></div>
+            <div class="text_wrap"></div>
+        </div>
+      </div>
+
+
+
+
+
+
+    <!-- 내가 만든 js -->
+     <script src="./js/script.js"></script>
+     <!-- 예약폼 js -->
+     <script src="./js/script (2).js"></script>
+</body>
+</html>

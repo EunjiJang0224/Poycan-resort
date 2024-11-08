@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: black;
+    font-family: Pretendard;
+    font-size: 14px;
+    min-width: 1400px;
+}
+
+/* header_S */
+#header {
+    height: 90px;
+    background-color: #4B413C;
+    display: flex;
+    justify-content: space-between;
+    border: rgba(255, 255, 255, 0.285) 2px solid;
+}
+
+#header_l {
+    display: flex;
+}
+
+#header_l>li>a {
+    display: block;
+    color: white;
+
+    font-size: 24px;
+    font-weight: 600;
+    /* border-right: rgba(255, 255, 255, 0.402) 1px solid; */
+}
+
+.search-box {
+    position: relative;
+    width: 300px;
+    height: 65px;
+    margin-top: 35px;
+}
+
+.search-box input {
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 2px 3px;
+}
+
+.search-box img {
+    position: absolute;
+    top: 2px;
+    right: -5px;
+    z-index: 99999999;
+}
+
+.logo a {
+    padding: 13px;
+}
+
+.hotel {
+    background: url(../images/icon_arrow.png) no-repeat right 25px center;
+    position: relative;
+}
+
+.hotel a {
+    padding: 29px 190px 29px 29px;
+    border-left: rgba(255, 255, 255, 0.402) 1px solid;
+    border-right: rgba(255, 255, 255, 0.402) 1px solid;
+
+}
+
+#header_r {
+    display: flex;
+}
+
+#header_r li a {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.808);
+    background-color: #4B413C;
+    border-left: rgba(255, 255, 255, 0.356) 1px solid;
+
+}
+
+#header_r li:nth-child(1) a {
+    padding: 29px
+}
+
+#header_r li:nth-child(2) a {
+    padding: 29px
+}
+
+#header_r li:nth-child(3) a {
+    padding: 29px
+}
+
+#header_r li:nth-child(4) a {
+    padding: 29px
+}
+
+#header_r li:nth-child(5) a {
+    padding: 27px
+}
+
+.sub {
+    width: 100%;
+    position: absolute;
+    top: 92px;
+    left: 0;
+    z-index: 99999999;
+
+
+}
+
+.sub li a {
+    display: block;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 23px;
+    ;
+    font-weight: 500;
+    background-color: #4B413C;
+    border-bottom: rgba(255, 255, 255, 0.281) 1px solid;
+    border-left: rgba(255, 255, 255, 0.281) 1px solid;
+    border-right: rgba(255, 255, 255, 0.281) 1px solid;
+
+
+
+}
+
+.sub li a:hover {
+
+    border-bottom: rgba(255, 255, 255, 0.281) 1px solid;
+}
+
+
+/* header_E */
+#textflow{
+    height: 30px;
+    background-color: blanchedalmond;
+}
+/* banner_S */
+
+#banner {
+    height: 870px;
+    position: relative;
+}
+.rate_button{
+    position: absolute;
+    top: 660px;
+    left: 290px;
+    z-index: 999999999;
+    color: white;
+    background-color: #6e6e6e9e;
+    padding: 15px;
+    width: 270px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+.rate_button:hover{
+    border: 1px solid rgb(110, 110, 110);
+}
+
+.banner_title {
+    position: absolute;
+    top: 250px;
+    left: 290px;
+    z-index: 999;
+    color: white;
+    font-family: Palatino Linotype;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+}
+
+/* fixed nav */
+.fixed_nav {
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    position: fixed;
+    top: 204PX;
+    z-index: 10;
+    right: 0;
+}
+
+.fixed_nav li {
+    padding: 10px 7px;
+}
+
+/* form */
+img {
+    border: 0;
+}
+
+.input_title {
+    color: white;
+    margin: 15px 0;
+
+}
+
+.notice {
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 430px;
+    left: 290px;
+    z-index: 99;
+}
+
+/*제목부분*/
+.title {
+    overflow: hidden;
+    padding: 10px 10px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.245);
+
+}
+
+.title_in {
+    float: left;
+    color: white;
+    font-weight: 500;
+}
+
+.plus {
+    float: right;
+    margin-right: 10px;
+}
+
+.text_info {
+    padding: 10px;
+    background: #ddd;
+    display: none;
+}
+
+.count_box {}
+
+
+
+.turn .title img {
+    transform: rotate(45deg);
+}
+
+.plus img {
+    transition: transform 0.5s;
+}
+
+
+/* mainbanner swiper */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+:root {
+    --swiper-theme-color: #fff
+}
+/* banner_E */
+/* contents1_S */
+#contents1{
+    width: 1320px;
+    margin: 0 auto;
+    height: 1000px;
+
+}

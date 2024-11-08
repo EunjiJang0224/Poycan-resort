@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1320">
+    <title>POYCAN RESORT&VILLA</title>
+    <!-- <meta name="viewport" content="width=1320, initial-scale=1, minimum-scale=1, maximum-scale=1" /> -->
+    <!-- con2 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- 내가 만든 css -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- swiper_jquery -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- google cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src='js/jquery-ui.min.js'></script>
+    <script src="js/banner.js"></script>
+    <script src="./js/hamburger.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+
+<body>
+
+    <!-- header_start -->
+
+    <div id="header_wrap">
+        <!-- 높이 90 배경색 -->
+         <!-- hamberger menu -->
+          <div class="hb">
+            <div class="slide-open" id="slide-open">
+                <span class="burgur" id="burgur">
+                    <span class="top-line"></span>
+                    <span class="bot-line"></span>
+                </span>
+            </div><!--slide-open-->
+            <div class="slide" id="slide">
+                <div class="slide-title">
+                    <div class="slide_logo"><img src="./images/logo_w.png" alt="logo_w"></div>
+                    <div class="slide_icon">
+                        <div class="search-box">
+                            <input type="text" placeholder="search">
+                            <a href="#"><img src="./images/search.png" alt="search"></a>
+                        </div>
+
+                        <div class="slide_icon_globe"><a href="#"><img src="./images/icon_globe_w.png" alt="globe"></a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="slide_list">
+                    <li><a href="#section1">The Resort</a></li>
+                    <li><a href="#section2">Accomodation</a></li>
+                    <li><a href="#section3">Dining</a></li>
+                    <li><a href="#section4">Facilities</a></li>
+                    <li><a href="#section5">Special Offer</a></li>
+                    <li><a href="#section5">Wellbeing Experiences</a></li>
+                    <li><a href="#section5">Gallery</a></li>
+                    <li><a href="#section5">Journal</a></li>
+                </ul>
+
+            </div><!--slide-->
+        </div>
+        <div class="header">
+            <!-- 너비 1320 가운데 정렬 -->
+            <h1 class="logo_main"><a href="./index.html"><img src="./images/logo.png" alt="logo"></a></h1>
+            <ul class="gnb">
+                <li><a href="./sub1.html">ACCOMODATION</a></li>
+                <li><a href="#">FACILITIES</a></li>
+                <li><a href="#">DINING</a></li>
+                <li><a href="#">E-SHOP</a></li>
+
+            </ul>
+            <ul class="gnb_icons">
+                <li class="book"><a href="#">BOOK</a></li>
+                <li class="icon"><a href="#"><img src="./images/icon_search.png" alt="search"></a></li>
+                <li class="icon"><a href="#"><img src="./images/icon_globe.png" alt="globe"></a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- header_end -->
+    <!-- banner_start -->
+
+    <div id="banner">
+        <!-- 높이 870 배경 -->
+        <h2 class="banner_title">EMBRACE THE LEISURE
+            <br>UNBOUND BY TIME
+        </h2>
+        <p class="rate_button"><a href="#">CHECK RATE</a></p>
+        <!-- swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/banner_img.png" alt="banner1"></div>
+                <div class="swiper-slide"><img src="./images/banner1.jpg" alt="banner2"></div>
+                <div class="swiper-slide"><img src="./images/wooden-path-in-luxury-resort-in-tropical-forest-free-photo.webp" alt="banner3"></div>
+                <div class="swiper-slide"><img src="./images/banner5.jpg" alt="banner4"></div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- fixed_nav -->
+        <ul class="fixed_nav">
+            <li><a href="#">
+                    <img src="./images/icon_login.png" alt="login">
+                    <p>LOG IN</p>
+                </a></li>
+            <li><a href="#">
+                    <img src="./images/icon_check.png" alt="login">
+                    <p>CHECK</p>
+                </a></li>
+            <li><a href="#">
+                    <img src="./images/icon_phone.png" alt="login">
+                    <p>CONTACT</p>
+                </a></li>
+            <li><a href="#">
+                    <img src="./images/icon_place.png" alt="login">
+                    <p>LOACTION</p>
+                </a></li>
+
+        </ul>
+        <!-- 예약폼 만들기 -->
+        <div class="notice">
+            <h3 class="input_title">CHECK IN &ndash; CHECK OUT</h3>
+            <ul>
+                <li>
+                    <div class="title">
+                        <div class="title_in">CHECK IN &ndash; CHECK OUT</div>
+                        <div class="plus"><img src="./images/icon_arrow.png" alt="plus"></div>
+                    </div>
+                    <div class="text_info">
+                        공지사항내용입니다<br>
+                        공지사항내용입니다<br>
+                        공지사항내용입니다<br>
+                        공지사항내용입니다<br>
+                        공지사항내용입니다<br>
+                        공지사항내용입니다<br>
+                    </div>
+                </li>
+                <h3 class="input_title">GUESTS</h3>
+
+                <li>
+                    <div class="title">
+                        <div class="title_in">GUESTS</div>
+                        <div class="plus"><img src="./images/icon_arrow.png" alt="plus"></div>
+                    </div>
+                    <div class="text_info">
+                        <div class="count_box">
+                            <p>ROOM1 </p>
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- banner_e -->
+    <!-- section1_s -->
+
+    <div id="contents1_wrap">
+        <!-- 높이 1175 배경색 -->
+        <div class="contents1">
+            <!-- 너비 1320 가운데 -->
+            <p class="small_title">POYCAN RESORT&amp;VILLA</p>
+            <H2 class="big_title">ABOUT US</H2>
+            <!-- wrap1 -->
+            <div class="con1_wrap con1_wrap1">
+                <!-- 플렉스 -->
+                <div class="text_box">
+                    <!-- 박스사이징 -->
+                    <p class="text_title animate__animated animate__fadeInLeft">01. GO DOWN THE RABBIT HOLE</p>
+                    <p class="text_contents">푸르른 숲속에서 산책하며 느끼는 신선한 공기와 새소리는 마치 동화 속에 들어온 듯한
+                        <br>기분을 선사합니다. 무언가에 깊이 빠져 시간 가는 줄 모른다는 뜻의 영어 관용구 'Go
+                        <br>Down The Rabbit Hole'이 뜻하는 것처럼 이곳에서는 시간이 멈추고, 당신만의 순간에
+                        <br>흠뻑 빠질 수 있습니다.
+                    </p>
+                    <p class="button con1_button1"><a href="#">VIEW MORE</a></p>
+                </div>
+                <div class="images_box"><img src="./images/section1-forest.jpg" alt=""></div>
+            </div>
+            <!-- wrap2 -->
+            <div class="con1_wrap con1_wrap2">
+                <div class="images_box"><img src="./images/sec1_pool.jpg" alt=""></div>
+                <div class="text_box">
+                    <!-- 박스사이징 -->
+                    <p class="text_title animate__animated animate__fadeInRight">02. EXPERIENCE BECOMING ONE WITH NATURE</p>
+                    <p class="text_contents">우리는 자연과 조화를 이루는 공간을 제공합니다.
+                        <br>편안한 숙소와 다양한 액티비티를 통해 진정한 자유를 느껴보세요.
+                    </p>
+                    <p class="button con1_button2"><a href="#">VIEW MORE</a></p>
+                </div>
+
+            </div>
+            <!-- wrap3 -->
+            <div class="con1_wrap con1_wrap3">
+                <div class="text_box">
+                    <!-- 박스사이징 -->
+                    <p class="text_title animate__animated animate__fadeInLeft">03. ENJOY YOUR OWN JOURNEY</p>
+                    <p class="text_contents">우리와 함께 특별한 추억을 만들어 보세요.
+                        <br>시간이 멈춘 듯한 이곳에서, 당신의 이야기를 시작하세요.
+                    </p>
+                    <p class="button con1_button3"><a href="#">VIEW MORE</a></p>
+                </div>
+                <div class="images_box"><img src="./images/sec1_love.jpg" alt=""></div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- section1_e -->
+    <!-- section2_s -->
+
+    <div id="contents2">
+        <div id="wrap">
+            <!-------- tradeworld --------->
+            <section class="tw">
+                <div class="bg tw_bg">
+                    <div class="contents tw_contents">
+                        <h2>picnic
+                        </h2>
+                        <div class="tw_textAll">
+                            <h2> Rental Picnic</h2>
+                            <h3>가을은 피크닉의 계절,
+                                렌탈피크닉을 무료로 즐기자
+                            </h3>
+                            <p class="text">
+                                숲 속에서 즐기는 특별한 피크닉!
+                                <br>선착순으로 제공되는 무료 렌탈 피크닉 세트로
+                                아름다운 자연 속에서 특별한 순간을 만들어보세요.
+                                
+                            </p>
+                            <p class="link"><a href="#">자세히 보기</a><span></span></p>
+                            <h1 class="tw_logo logo">로고</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------- tw studio --------->
+            <section class="ts">
+                <div class="bg ts_bg">
+                    <div class="contents ts_contents">
+                        <h2>tracking</h2>
+                        <div class="ts_textAll">
+                            <h2>Special Tracking Course</h2>
+                            <h3>걸어서 숲 속으로, 포이칸 특별 트레킹 코스</h3>
+                            <p class="text">
+                                숙박객 전용 특별 트레킹 코스를 경험해 보세요!
+                                <br>자연의 숨결을 느끼며 독특한 경로를 탐험하고,
+                                전문 가이드와 함께 안전하고 즐거운 시간을 보내세요.
+                            </p>
+                            <p class="link"><a href="http://twstudio.co.kr/">자세히 보기</a><span></span></p>
+                            <h1 class="ts_logo logo">로고</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------- koreamesse --------->
+            <section class="km">
+                <div class="bg km_bg">
+                    <div class="contents km_contents">
+                        <h2>owner club</h2>
+                        <div class="km_textAll">
+                            <h2>Welcome, Owner Club</h2>
+                            <h3>2024-2025 오너클럽 혜택 안내</h3>
+                            <p class="text">
+                                2024-2025 오너클럽에 가입하고 특별한 혜택을 누리세요!
+                                <br>우선 예약, 전용 할인, 특별 이벤트 초대 등
+                                다양한 혜택이 여러분을 기다립니다.
+                            </p>
+                            <p class="link"><a href="http://koreamesse.co.kr/">홈페이지 바로가기</a><span></span></p>
+                            <h1 class="km_logo logo">로고</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <h1 id="logo">로고</h1>
+        </div>
+    </div>
+
+    <!-- section2_e -->
+    <!-- section3_s -->
+
+    <div id="contents3_wrap">
+        <!-- 높이 960px 너비 1320px  가운데-->
+        <p class="rv">POYCAN RESORT&VILLA</p>
+        <h1 class="room_intro">
+            ACCOMODATION
+        </h1>
+        <ul class="show_room">
+            <li>
+                <div class="roomimg_box">
+                    <!-- 크기 381 400  -->
+                    <a href="#"><img src="./images/Untitled-4.jpg" alt=""></a>
+                </div>
+                <div class="roomtext_box">
+                    <p class="room_name">Predidetial Pool Villa </p>
+                    <p class="room_exp">크기 : 350㎡ (침실2, 거실1, 욕실2, 프라이빗 풀1)
+                        <br>정원 : 4명(350㎡)
+                        <br>객실 수 : 2
+                    </p>
+                    <p class="room_button"><a href="#">VIEW MORE </p></a></p>
+                </div>
+            </li>
+            <li>
+                <div class="roomimg_box">
+                    <!-- 크기 381 400  -->
+                    <a href="#"><img src="./images/room11.jpg" alt=""></a>
+                </div>
+                <div class="roomtext_box">
+                    <p class="room_name">Deluxe Pool Villa</p>
+                    <p class="room_exp">크기 : 320㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                        <br>정원 : 2명(350㎡)
+                        <br>객실 수 : 2
+                    </p>
+                    <p class="room_button"><a href="#">VIEW MORE</a></p>
+                </div>
+            </li>
+            <li>
+                <div class="roomimg_box">
+                    <!-- 크기 381 400  -->
+                    <a href="#"><img src="./images/room12.jpg" alt=""></a>
+                </div>
+                <div class="roomtext_box">
+                    <p class="room_name">Wellbeing Sanctuary Pool Villa</p>
+                    <p class="room_exp">크기 : 280㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                        <br>정원 : 3명(350㎡)
+                        <br>객실 수 : 2
+                    </p>
+                    <p class="room_button"><a href="#">VIEW MORE</a></p>
+                </div>
+            </li>
+            <li>
+                <div class="roomimg_box">
+                    <!-- 크기 381 400  -->
+                    <a href="#"><img src="./images/room13.jpg" alt=""></a>
+                </div>
+                <div class="roomtext_box">
+                    <p class="room_name">Horizon Hillcrest Pool Villa</p>
+                    <p class="room_exp">크기 : 280㎡ (침실1, 거실1, 욕실1, 프라이빗 풀1)
+                        <br>정원 : 2명(350㎡)
+                        <br>객실 수 : 2
+                    </p>
+                    <p class="room_button"><a href="#">VIEW MORE</a></p>
+                </div>
+            </li>
+        </ul>
+
+
+    </div>
+
+    <!-- section3_e -->
+    <!-- section4_s -->
+
+    <div id="contents4">
+        <!-- 높이 960 너비 1320 가운데 -->
+        <p class="rv">POYCAN RESORT&VILLA</p>
+        <h1 class="room_intro">
+            FACILITIES MAP
+        </h1>
+        <div class="map_felxbox">
+            <!-- 플렉스 -->
+            <div class="fac_list">
+                <!-- 배경 너비 227-->
+                <ul class="list_box">
+                    <li class="lobby"><a href="javascript:return false;">LOBBY</a></li>
+                    <li class="parking"><a href="javascript:return false;">PARKING LOT</a></li>
+                    <li class="main"><a href="javascript:return false;">MAIN POOL</a></li>
+                    <li class="fitness"><a href="javascript:return false;">FITNESS</a></li>
+                    <li class="spa"><a href="javascript:return false;">SPA</a></li>
+                    <li class="restaurant"><a href="javascript:return false;">RESTAURANT</a></li>
+                    <li class="kids"><a href="javascript:return false;">KIDS POOL</a></li>
+                    <li class="gift"><a href="javascript:return false;">GIFT SHOP</a></li>
+                    <li class="tennis"><a href="javascript:return false;">TENNIS COURT</a></li>
+                    <li class="lakeside"><a href="javascript:return false;">LAKESIDE BAR</a></li>
+                </ul>
+            </div>
+            <div class="fac_map">
+                <!-- 너비 947 높이 574-->
+                <img src="./images/map.jpg" alt="">
+                <div class="place_checker_lobby"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                <div class="place_checker_parking"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                <div class="place_checker_pool"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                <div class="place_checker_fitness"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                <div class="place_checker_spa"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                <div class="place_checker_restaurant"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                <div class="place_checker_kids"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                <div class="place_checker_giftshop"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                <div class="place_checker_tennis"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                <div class="place_checker_lakeside"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                <div class="talkbox" id="talk_restaurant">
+                    <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                        <br><span>이용문의</span> 051-1234-5678
+                    </p>
+                </div>
+                <div class="talkbox" id="talk_lobby">
+                    <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                        <br><span>이용문의</span> 051-1234-5678
+                    </p>
+                </div>
+                <div class="talkbox" id="talk_parking">
+                    <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                        <br><span>이용문의</span> 051-1234-5678
+                    </p>
+                </div>
+                <div class="talkbox" id="talk_main">
+                    <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                        <br><span>이용문의</span> 051-1234-5678
+                    </p>
+                </div>
+                <div class="talkbox" id="talk_fitness">
+                    <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                        <br><span>이용문의</span> 051-1234-5678
+                    </p>
+                </div>
+                <div class="talkbox" id="talk_spa">
+                    <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                        <br><span>이용문의</span> 051-1234-5678
+                    </p>
+                </div>
+                <div class="talkbox" id="talk_kids">
+                    <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                        <br><span>이용문의</span> 051-1234-5678
+                    </p>
+                </div>
+                <div class="talkbox" id="talk_gift">
+                    <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                        <br><span>이용문의</span> 051-1234-5678
+                    </p>
+                </div>
+                <div class="talkbox" id="talk_tennis">
+                    <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                        <br><span>이용문의</span> 051-1234-5678
+                    </p>
+                </div>
+                <div class="talkbox" id="talk_lakeside">
+                    <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                        <br><span>이용문의</span> 051-1234-5678
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- section4_e -->
+    <!-- section5_s -->
+
+    <div id="contents5">
+        <!-- 높이 960 -->
+
+    </div>
+
+    <!-- section5_e -->
+    <!-- footer_S -->
+
+    <div id="footer_wrap">
+        <!-- 높이 149 배경색 -->
+        <div class="footer">
+            <!-- 가운데 너비 1320 -->
+            <h1 class="footer_logo"><img src="./images/logo_w.png" alt="logo_w"></h1>
+            <ul class="sns">
+                <li><a href="#"><img src="./images/icon_insta.png" alt="insta"></a></li>
+                <li><a href="#"><img src="./images/icon_yt.png" alt="yt"></a></li>
+                <li><a href="#"><img src="./images/icon_x.png" alt="x"></a></li>
+                <li><a href="#"><img src="./images/icon_facebook.png" alt=""></a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="./js/script.js"></script>
+    <script src="./js/script (2).js"></script>
+
+   <!-- java script -->
+    <script>
+   
+        // facilities map pop up
+        $(function () {
+            $(".talkbox").hide();
+            $(".lobby").click(function () {
+                $("#talk_lobby").fadeIn();
+            });
+            $(".parking").click(function () {
+                $("#talk_parking").fadeIn();
+            });
+            $(".main").click(function () {
+                $("#talk_main").fadeIn();
+            });
+            $(".fitness").click(function () {
+                $("#talk_fitness").fadeIn();
+            });
+            $(".spa").click(function () {
+                $("#talk_spa").fadeIn();
+            });
+            $(".restraurant").click(function () {
+                $("#talk_restaurant").fadeIn();
+            });
+            $(".kids").click(function () {
+                $("#talk_kids").fadeIn();
+            });
+            $(".gift").click(function () {
+                $("#talk_gift").fadeIn();
+            });
+            $(".tennis").click(function () {
+                $("#talk_tennis").fadeIn();
+            });
+            $(".lakeside").click(function () {
+                $("#talk_lakeside").fadeIn();
+            });
+
+        });
+        $(function () {
+            $(".talkbox").hide();
+
+            $(".lobby, .parking, .main, .fitness, .spa, .restaurant, .kids, .gift, .tennis, .lakeside").click(function () {
+                $(".talkbox").hide();
+                var talkId = "#talk_" + $(this).attr('class');
+                $(talkId).fadeIn();
+            });
+        });
+        // special offer script
+        $(function () {
+            $('.tw_contents > h2').mouseenter(function () {
+                //$('.tw_contents > h2').addClass('activeMove');
+                $('#wrap > section.tw, .tw_contents > div, .tw_bg, #logo, .tw_logo').addClass('active');
+                $('.contents > h2, #wrap > section.ts, #wrap > section.km, .ts_bg, .km_bg').addClass('activeSize');
+            });
+            $('#wrap > section.tw').mouseleave(function () {
+                //$('.tw_contents > h2').removeClass('activeMove');
+                $('#wrap > section.tw, .tw_contents > div, .tw_bg, #logo, .tw_logo').removeClass('active');
+                $('.contents > h2,  #wrap > section.ts,  #wrap > section.km, .ts_bg, .km_bg').removeClass('activeSize');
+
+            });
+
+            $('.ts_contents > h2').mouseenter(function () {
+                //$('.ts_contents > h2').addClass('activeMove');
+                $('#wrap > section.ts, .ts_contents > div, .ts_bg, #logo, .ts_logo').addClass('active');
+                $('.contents > h2, #wrap > section.tw, #wrap > section.km, .tw_bg, .km_bg').addClass('activeSize');
+            });
+            $('#wrap > section.ts').mouseleave(function () {
+                //$('.ts_contents > h2').removeClass('activeMove');
+                $('#wrap > section.ts, .ts_contents > div, .ts_bg, #logo, .ts_logo').removeClass('active');
+                $('.contents > h2, #wrap > section.tw, #wrap > section.km, .tw_bg, .km_bg').removeClass('activeSize');
+            });
+
+            $('.km_contents > h2').mouseenter(function () {
+                //$('.km_contents > h2').addClass('activeMove');
+                $('#wrap > section.km, .km_contents > div, .km_bg, #logo, .km_logo').addClass('active');
+                $('.contents > h2, #wrap > section.tw, #wrap > section.ts, .tw_bg, .ts_bg').addClass('activeSize');
+            });
+            $('#wrap > section.km').mouseleave(function () {
+                //$('.km_contents > h2').removeClass('activeMove');
+                $('#wrap > section.km, .km_contents > div, .km_bg, #logo, .km_logo').removeClass('active');
+                $('.contents > h2, #wrap > section.tw, #wrap > section.ts, .tw_bg, .ts_bg').removeClass('activeSize');
+            });
+        });
+
+    </script>
+   
+</body>
+
+</html>
