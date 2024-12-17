@@ -1170,9 +1170,14 @@ span{
 /* section6_s */
 #contents5{
     height: 960px;
-    background: url(../images/video_img.png) no-repeat;
+  background-color: #000000;
     background-size: cover;
 
+
+}
+#contents5 video{
+    width: 100%;
+    height: 100%;
 }
 /* section6_s */
 /* footer_s */
