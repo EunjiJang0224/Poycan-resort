@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1320">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style3.css">
+    <!-- con2 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- swiper_jquery -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- google cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src='js/jquery-ui.min.js'></script>
+    <script src="js/banner.js"></script>
+    <script src="./js/hamburger.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- 내가 만든 css -->
+    <link rel="stylesheet" href="./CSS/style3.css">
+</head>
+
+<body>
+    <!-- header_start -->
+
+    <div id="body_wrap">
+        <!-- header_start -->
+        <div id="header_header">
+            <div id="header_wrap">
+                <!-- 높이 90 배경색 -->
+                <!-- hamberger menu -->
+                <div class="hb">
+                    <div class="slide-open" id="slide-open">
+                        <span class="burgur" id="burgur">
+                            <span class="top-line"></span>
+                            <span class="bot-line"></span>
+                        </span>
+                    </div><!--slide-open-->
+                    <div class="slide" id="slide">
+                        <div class="slide-title">
+                            <div class="slide_logo"><img src="./images/logo_w.png" alt="logo_w"></div>
+                            <div class="slide_icon">
+                                <div class="search-box">
+                                    <input type="text" placeholder="search">
+                                    <a href="#"><img src="./images/search.png" alt="search"></a>
+                                </div>
+
+                                <div class="slide_icon_globe"><a href="#"><img src="./images/icon_globe_w.png"
+                                            alt="globe"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="slide_list">
+                            <li><a href="#section1">The Resort</a></li>
+                            <li><a href="#section2">Accomodation</a></li>
+                            <li><a href="#section3">Dining</a></li>
+                            <li><a href="#section4">Facilities</a></li>
+                            <li><a href="#section5">Special Offer</a></li>
+                            <li><a href="#section5">Wellbeing Experiences</a></li>
+                            <li><a href="#section5">Gallery</a></li>
+                            <li><a href="#section5">Journal</a></li>
+                        </ul>
+
+                    </div><!--slide-->
+                </div>
+                <div class="header">
+                    <!-- 너비 1320 가운데 정렬 -->
+                    <h1 class="logo_main"><a href="./index.html"><img src="./images/logo.png" alt="logo"></a></h1>
+                    <ul class="gnb">
+                        <li><a href="./sub1.html">ACCOMODATION<div class="solid"></div></a></li>
+                        <li><a href="./sub2.html">FACILITIES<div class="solid"></div></a></li>
+                        <li><a href="./sub3.html">DINING<div class="solid"></div></a></li>
+                        <li><a href="./sub4.html">E-SHOP<div class="solid"></div></a></li>
+                        <li><a href="./sub5.html">SPECIAL OFFER<div class="solid"></div></a></li>
+
+                    </ul>
+                    <ul class="gnb_icons">
+                        <li class="book"><a href="#">BOOK</a></li>
+                        <li class="icon"><a href="#"><img src="./images/icon_search.png" alt="search"></a></li>
+                        <li class="icon"><a href="#"><img src="./images/icon_globe.png" alt="globe"></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- header_end -->
+        <!-- contents1_S -->
+        <div id="contents1">
+            <!-- 높이 960 너비 1320 가운데 -->
+            <p class="rv">POYCAN RESORT&VILLA</p>
+            <h1 class="fac_intro">
+                <span class="big">F</span>ACILITIES <span class="big">M</span>AP
+            </h1>
+            <div class="map_felxbox">
+                <!-- 플렉스 -->
+                <div class="fac_list">
+                    <!-- 배경 너비 227-->
+                    <ul class="list_box">
+                        <li class="lobby"><a href="javascript:return false;">LOBBY</a></li>
+                        <li class="parking"><a href="javascript:return false;">PARKING LOT</a></li>
+                        <li class="main"><a href="javascript:return false;">MAIN POOL</a></li>
+                        <li class="fitness"><a href="javascript:return false;">FITNESS</a></li>
+                        <li class="spa"><a href="javascript:return false;">SPA</a></li>
+                        <li class="restaurant"><a href="javascript:return false;">RESTAURANT</a></li>
+                        <li class="kids"><a href="javascript:return false;">KIDS POOL</a></li>
+                        <li class="gift"><a href="javascript:return false;">GIFT SHOP</a></li>
+                        <li class="tennis"><a href="javascript:return false;">TENNIS COURT</a></li>
+                        <li class="lakeside"><a href="javascript:return false;">LAKESIDE BAR</a></li>
+                    </ul>
+                </div>
+                <div class="fac_map">
+                    <!-- 너비 947 높이 574-->
+                    <img src="./images/map.jpg" alt="">
+                    <div class="place_checker_lobby"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                    <div class="place_checker_parking"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                    <div class="place_checker_pool"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                    <div class="place_checker_fitness"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                    <div class="place_checker_spa"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                    <div class="place_checker_restaurant"><a href="#"><img src="./images/icon_place.png" alt=""></a>
+                    </div>
+                    <div class="place_checker_kids"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                    <div class="place_checker_giftshop"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                    <div class="place_checker_tennis"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                    <div class="place_checker_lakeside"><a href="#"><img src="./images/icon_place.png" alt=""></a></div>
+                    <div class="talkbox" id="talk_restaurant">
+                        <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                            <br><span>이용문의</span> 051-1234-5678
+                        </p>
+                    </div>
+                    <div class="talkbox" id="talk_lobby">
+                        <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                            <br><span>이용문의</span> 051-1234-5678
+                        </p>
+                    </div>
+                    <div class="talkbox" id="talk_parking">
+                        <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                            <br><span>이용문의</span> 051-1234-5678
+                        </p>
+                    </div>
+                    <div class="talkbox" id="talk_main">
+                        <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                            <br><span>이용문의</span> 051-1234-5678
+                        </p>
+                    </div>
+                    <div class="talkbox" id="talk_fitness">
+                        <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                            <br><span>이용문의</span> 051-1234-5678
+                        </p>
+                    </div>
+                    <div class="talkbox" id="talk_spa">
+                        <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                            <br><span>이용문의</span> 051-1234-5678
+                        </p>
+                    </div>
+                    <div class="talkbox" id="talk_kids">
+                        <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                            <br><span>이용문의</span> 051-1234-5678
+                        </p>
+                    </div>
+                    <div class="talkbox" id="talk_gift">
+                        <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                            <br><span>이용문의</span> 051-1234-5678
+                        </p>
+                    </div>
+                    <div class="talkbox" id="talk_tennis">
+                        <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                            <br><span>이용문의</span> 051-1234-5678
+                        </p>
+                    </div>
+                    <div class="talkbox" id="talk_lakeside">
+                        <p><span>운영시간</span> 7:00~14:00, 18:00~21:00
+                            <br><span>이용문의</span> 051-1234-5678
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- section1_e -->
+        <!-- section2_S -->
+
+        <div id="section2_wrap">
+            <div class="section2">
+                <div id="menu">
+                    <div id="wrapper">
+                        <!--탭 메뉴 영역(우리가 실제로 클릭할 부분)
+                  각각의 li안에 a태그의 아이디를 가진 tab이 보이는 원리이다.
+                  -->
+                        <ul class="tabs">
+                            <li><span tabs="#tab1">TENNIS COURT</span></li>
+                            <li><span tabs="#tab2">MAIN POOL</span></li>
+                            <li><span tabs="#tab3">LAKESIDE BAR</span></li>
+                            <li><span tabs="#tab4">FITNESS</span></li>
+                            <li><span tabs="#tab5">GIFT SHOP</span></li>
+                            <li><span tabs="#tab6">SPA</span></li>
+                        </ul>
+
+                        <!--탭 콘텐츠 영역(tabs를 눌렀을때 변화할 내용들이 들어있는 곳) 모든 tab내용은, 각각 다른아이디를 갖고 있어야 하고, 같은 tab-content라는 클래스를 가지고 있어야 합니다.-->
+                        <div class="tab_container">
+                            <div class="tap_wrapper">
+                                <div id="tab1" class="tab_content">
+                                    <!--Content-->
+                                    <img src="./images/tennis.png" alt="tennis">
+
+                                </div>
+                                <div class="h_box">
+                                    <p class="small_title">POYCAN RESORT&VIALLA</p>
+                                    <p class="big_title">TENNIS COURT</p>
+                                    <p class="player">아름다운 숲 속에서 국제 규격의 테니스 코트를 즐기세요.
+                                        모든 수준의 플레이어를 위한 맞춤형 레슨으로 실력을 키우며 테니스의 매력을 새롭게 발견해보세요.
+                                        자연과 조화를 이루는 쾌적한 환경은 운동의 즐거움을 한층 더해 줄 것입니다.</p>
+                                    <ul class="details">
+                                        <li>이용가능 시간 : 매일 오전 7시~오후 9시</li>
+                                        <li> 예약 방법 : 체크인 10일 전부터 홈페이지 및 전화예약</li>
+                                        <li> 대여 : 라켓 및 공 무료 대여</li>
+                                    </ul>
+                                    <p class="button"><a href="#">예약하기</a></p>
+
+                                </div>
+                            </div>
+                            <div class="tap_wrapper">
+                                <div id="tab2" class="tab_content">
+                                    <!--Content-->
+                                    <img src="./images/main_pool.jpg" alt="main pool">
+                                </div>
+                                <div class="h_box">
+                                    <p class="small_title">POYCAN RESORT&VIALLA</p>
+                                    <p class="big_title">MAIN POOL</p>
+                                    <p class="player">숲 속의 평화로운 자연과 조화를 이루는 메인 풀입니다. 맑고 푸른 물결이 숲의 녹음과 어우러져 마치 동화속에 들어온
+                                        듯한 느낌을 선사합니다. 하루의 피로를 씻어내고, 자연과 하나가 되는 특별한 경험을 제공합니다. </p>
+                                    <ul class="details">
+                                        <li>이용가능 시간 : 매일 오전 7시~오후 9시</li>
+                                        <li> 예약 방법 : 예약 불가</li>
+                                        <li> 대여 : 수영복 및 수영모 유료 대여</li>
+                                    </ul>
+
+
+                                </div>
+                            </div>
+                            <div class="tap_wrapper">
+                                <div id="tab3" class="tab_content">
+                                    <!--Content-->
+                                    <img src="./images/Bar.jpg" alt="bar">
+                                </div>
+                                <div class="h_box">
+                                    <p class="small_title">POYCAN RESORT&VIALLA</p>
+                                    <p class="big_title">LAKESIDE BAR</p>
+                                    <p class="player">호수의 잔잔한 물결이 반짝이는 '레이크사이드 바'는 자연 속 여유로운 시간을 즐길 수 있는 완벽한 장소입니다. 신선한
+                                        재료로 제조한 다양한 칵테일과 음료를 제공하며, 저녁이 되면 호수 위로 펼쳐지는 황홀한 일몰을 배경으로 로맨틱한 분위기를 만끽할 수 있습니다.
+                                    </p>
+                                    <ul class="details">
+                                        <li>이용가능 시간 : 매일 오후 6시~오전 1시</li>
+                                        <li> 예약 방법 : 체크인 10일 전부터 홈페이지 및 전화 예약</li>
+
+                                    </ul>
+                                    <p class="button"><a href="#">예약하기</a></p>
+
+                                </div>
+                            </div>
+                            <div class="tap_wrapper">
+                                <div id="tab4" class="tab_content">
+                                    <!--Content-->
+                                    <img src="./images/fitness.png" alt="fitness">
+                                </div>
+                                <div class="h_box">
+                                    <p class="small_title">POYCAN RESORT&VIALLA</p>
+                                    <p class="big_title">FITNESS</p>
+                                    <p class="player">리조트 내 피트니스 센터에서 여행 중에도 건강한 라이프 스타일을 유지하세요. 넓은 창문을 통해 푸르른 풍경을 바라보며
+                                        더욱 쾌적하게 운동을 즐기실 수 있습니다.</p>
+                                    <ul class="details">
+                                        <li>이용가능 시간 : 매일 오전 7시~오후 10시</li>
+                                        <li> 예약 방법 : 예약 불요</li>
+                                        <li> 샤워실 및 개인 락커 무료 제공
+
+                                        </li>
+                                    </ul>
+
+
+                                </div>
+                            </div>
+                            <div class="tap_wrapper">
+                                <div id="tab5" class="tab_content">
+                                    <!--Content-->
+                                    <img src="./images/gift-shop.png" alt="gift shop">
+                                </div>
+                                <div class="h_box">
+                                    <p class="small_title">POYCAN RESORT&VIALLA</p>
+                                    <p class="big_title">GIFT SHOP</p>
+                                    <p class="player">여행의 추억을 간직할 수 있는 특별한 아이템들을 만나보세요. 지역 특산품뿐만 아니라 핸드메이드 기념품과 고급스러운
+                                        스파용품 등 다양한 아이템들이 준비되어 있습니다.
+                                        오직 포이칸 리조트에서만 구매할 수 있는 독점 상품들로 여행의 특별함을 더하세요. </p>
+                                    <ul class="details">
+                                        <li>이용가능 시간 : 매일 오전 7시~오후 6시</li>
+
+                                    </ul>
+
+
+                                </div>
+                            </div>
+                            <div class="tap_wrapper">
+                                <div id="tab6" class="tab_content">
+                                    <!--Content-->
+                                    <img src="./images/spa.jpg" alt="spa">
+                                </div>
+                                <div class="h_box">
+                                    <p class="small_title">POYCAN RESORT&VIALLA</p>
+                                    <p class="big_title">SPA</p>
+                                    <p class="player">다양한 마사지, 페이셜, 바디 트리트먼트 등 전문적인 서비스를 제공합니다.
+                                        특별한 패키지와 맞춤형 프로그램을 통해 개인의 필요에 맞춘 잊지 못할 휴식을 경험해 보세요.
+                                    </p>
+                                    <ul class="details">
+                                        <li>이용가능 시간 : 매일 오전10시~오후 6시</li>
+                                        <li> 예약 방법 : 체크인 10일 전부터 홈페이지 및 전화로 에약</li>
+                                        <li> 대여 : 개인 락커룸 무료 대여</li>
+                                    </ul>
+                                    <p class="button"><a href="#">예약하기</a></p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- section2_e -->
+        <!-- footer_s -->
+        <div id="footer_wrap">
+            <!-- 높이 149 배경색 -->
+            <div class="footer">
+                <!-- 가운데 너비 1320 -->
+                <h1 class="footer_logo"><img src="./images/logo_w.png" alt="logo_w"></h1>
+                <ul class="sns">
+                    <li><a href="#"><img src="./images/icon_insta.png" alt="insta"></a></li>
+                    <li><a href="#"><img src="./images/icon_yt.png" alt="yt"></a></li>
+                    <li><a href="#"><img src="./images/icon_x.png" alt="x"></a></li>
+                    <li><a href="#"><img src="./images/icon_facebook.png" alt=""></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <script>
+
+            // facilities map pop up
+            $(function () {
+                $(".talkbox").hide();
+                $(".lobby").click(function () {
+                    $("#talk_lobby").fadeIn();
+                });
+                $(".parking").click(function () {
+                    $("#talk_parking").fadeIn();
+                });
+                $(".main").click(function () {
+                    $("#talk_main").fadeIn();
+                });
+                $(".fitness").click(function () {
+                    $("#talk_fitness").fadeIn();
+                });
+                $(".spa").click(function () {
+                    $("#talk_spa").fadeIn();
+                });
+                $(".restraurant").click(function () {
+                    $("#talk_restaurant").fadeIn();
+                });
+                $(".kids").click(function () {
+                    $("#talk_kids").fadeIn();
+                });
+                $(".gift").click(function () {
+                    $("#talk_gift").fadeIn();
+                });
+                $(".tennis").click(function () {
+                    $("#talk_tennis").fadeIn();
+                });
+                $(".lakeside").click(function () {
+                    $("#talk_lakeside").fadeIn();
+                });
+
+            });
+            $(function () {
+                $(".talkbox").hide();
+
+                $(".lobby, .parking, .main, .fitness, .spa, .restaurant, .kids, .gift, .tennis, .lakeside").click(function () {
+                    $(".talkbox").hide();
+                    var talkId = "#talk_" + $(this).attr('class');
+                    $(talkId).fadeIn();
+                });
+            });
+            $(document).ready(function () {
+
+
+                $(".tab_content").hide();
+                $("ul.tabs li:first").addClass("active");
+                $(".tab_content:first").show();
+
+
+                $(".tab_content:first img").each(function () {
+                    var img = $(this);
+                    if (img[0].complete) {
+                        img.show();
+                    } else {
+                        img.on('load', function () {
+                            img.show();
+                        });
+                    }
+                });
+
+
+                $("ul.tabs li").click(function () {
+                    $("ul.tabs li").removeClass("active");
+                    $(this).addClass("active");
+                    $(".tab_content").hide();
+
+                    var activeTab = $(this).find("span").attr("tabs");
+                    $(activeTab).fadeIn();
+
+
+                    $(activeTab).find("img").each(function () {
+                        var img = $(this);
+                        if (img[0].complete) {
+                            img.show();
+                        } else {
+                            img.on('load', function () {
+                                img.show();
+                            });
+                        }
+                    });
+
+                    return false;
+                });
+
+
+                var location = window.location.hash;
+                if (location) {
+                    var tab_arr = [];
+                    $(".tabs li span").each(function () {
+                        tab_arr.push($(this).attr("tabs"));
+                    });
+
+                    var numb = jQuery.inArray(location, tab_arr);
+                    if (numb !== -1) {
+                        $('.tabs li').removeClass("active");
+                        $('.tabs li').eq(numb).addClass("active");
+                        $(".tab_content").hide();
+                        $(tab_arr[numb]).fadeIn();
+
+
+                        $(tab_arr[numb]).find("img").each(function () {
+                            var img = $(this);
+                            if (img[0].complete) {
+                                img.show();
+                            } else {
+                                img.on('load', function () {
+                                    img.show();
+                                });
+                            }
+                        });
+                    }
+                }
+
+            });
+
+        </script>
+</body>
+
+</html>

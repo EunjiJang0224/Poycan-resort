@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1320">
+    <title>POYCAN RESORT&VILLA</title>
+    <!-- <meta name="viewport" content="width=1320, initial-scale=1, minimum-scale=1, maximum-scale=1" /> -->
+    <!-- con2 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+         <!-- 달력 css -->
+         <link rel="stylesheet" href="css/jquery-ui.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- 내가 만든 css -->
+    <link rel="stylesheet" href="./CSS/style2.css">
+    <!-- swiper_jquery -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- google cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src='js/jquery-ui.min.js'></script>
+    <script src="js/banner.js"></script>
+    <script src="./js/hamburger.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <div id="body_wrap">
+        <!-- header_start -->
+
+
+        <div id="header_header">
+            <div id="header_wrap">
+                <!-- 높이 90 배경색 -->
+                <!-- hamberger menu -->
+                <div class="hb">
+                    <div class="slide-open" id="slide-open">
+                        <span class="burgur" id="burgur">
+                            <span class="top-line"></span>
+                            <span class="bot-line"></span>
+                        </span>
+                    </div><!--slide-open-->
+                    <div class="slide" id="slide">
+                        <div class="slide-title">
+                            <div class="slide_logo"><img src="./images/logo_w.png" alt="logo_w"></div>
+                            <div class="slide_icon">
+                                <div class="search-box">
+                                    <input type="text" placeholder="search">
+                                    <a href="#"><img src="./images/search.png" alt="search"></a>
+                                </div>
+
+                                <div class="slide_icon_globe"><a href="#"><img src="./images/icon_globe_w.png"
+                                            alt="globe"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="slide_list">
+                            <li><a href="#section1">The Resort</a></li>
+                            <li><a href="#section2">Accomodation</a></li>
+                            <li><a href="#section3">Dining</a></li>
+                            <li><a href="#section4">Facilities</a></li>
+                            <li><a href="#section5">Special Offer</a></li>
+                            <li><a href="#section5">Wellbeing Experiences</a></li>
+                            <li><a href="#section5">Gallery</a></li>
+                            <li><a href="#section5">Journal</a></li>
+                        </ul>
+
+                    </div><!--slide-->
+                </div>
+                <div class="header">
+                    <!-- 너비 1320 가운데 정렬 -->
+                    <h1 class="logo_main"><a href="./index.html"><img src="./images/logo.png" alt="logo"></a></h1>
+                    <ul class="gnb">
+                        <li><a href="./sub1.html">ACCOMODATION<div class="solid"></div></a></li>
+                        <li><a href="./sub2.html">FACILITIES<div class="solid"></div></a></li>
+                        <li><a href="./sub3.html">DINING<div class="solid"></div></a></li>
+                        <li><a href="./sub4.html">E-SHOP<div class="solid"></div></a></li>
+                        <li><a href="./sub5.html">SPECIAL OFFER<div class="solid"></div></a></li>
+
+                    </ul>
+                    <ul class="gnb_icons">
+                        <li class="book"><a href="#">BOOK</a></li>
+                        <li class="icon"><a href="#"><img src="./images/icon_search.png" alt="search"></a></li>
+                        <li class="icon"><a href="#"><img src="./images/icon_globe.png" alt="globe"></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- header_end -->
+        <!-- banner_start -->
+
+        <div id="banner">
+            <!-- 높이 870 배경 -->
+            <h2 class="banner_title">EMBRACE THE LEISURE
+                <br>UNBOUND BY TIME
+            </h2>
+            <p class="rate_button"><a href="#">CHECK RATE</a></p>
+            <!-- swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/banner_img.png" alt="banner1"></div>
+                    <div class="swiper-slide"><img src="./images/banner1.jpg" alt="banner2"></div>
+                    <div class="swiper-slide"><img
+                            src="./images/wooden-path-in-luxury-resort-in-tropical-forest-free-photo.webp"
+                            alt="banner3"></div>
+                    <div class="swiper-slide"><img src="./images/banner5.jpg" alt="banner4"></div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- fixed_nav -->
+            <ul class="fixed_nav">
+                <li><a href="#">
+                        <img src="./images/icon_login.png" alt="login">
+                        <p>LOG IN</p>
+                    </a></li>
+                <li><a href="#">
+                        <img src="./images/icon_check.png" alt="login">
+                        <p>CHECK</p>
+                    </a></li>
+                <li><a href="#">
+                        <img src="./images/icon_phone.png" alt="login">
+                        <p>CONTACT</p>
+                    </a></li>
+                <li><a href="#">
+                        <img src="./images/icon_place.png" alt="login">
+                        <p>LOACTION</p>
+                    </a></li>
+
+            </ul>
+            <!-- 예약폼 만들기 -->
+            <div class="notice">
+                <h3 class="input_title">CHECK IN</h3>
+                <div class="select">
+                  <input type="text" id="datepicker" placeholder="CHECK IN" class="day">
+                </div>
+              
+                <h3 class="input_title">CHECK OUT</h3>
+                <div class="select">
+                  <input type="text" id="datepicker1" placeholder="CHECK OUT" class="day">
+                </div>
+                <!-- <h3 class="input_title">CHECK IN &ndash; CHECK OUT</h3>
+                <ul>
+                    <li>
+                        <div class="title">
+                            <div class="title_in">CHECK IN &ndash; CHECK OUT</div>
+                            <div class="plus"><img src="./images/icon_arrow.png" alt="plus"></div>
+                        </div>
+                        <div class="text_info">
+                            공지사항내용입니다<br>
+                            공지사항내용입니다<br>
+                            공지사항내용입니다<br>
+                            공지사항내용입니다<br>
+                            공지사항내용입니다<br>
+                            공지사항내용입니다<br>
+                        </div>
+                    </li>
+                    <h3 class="input_title">GUESTS</h3>
+
+                    <li>
+                        <div class="title">
+                            <div class="title_in">GUESTS</div>
+                            <div class="plus"><img src="./images/icon_arrow.png" alt="plus"></div>
+                        </div>
+                        <div class="text_info">
+                            <div class="count_box">
+                                <p>ROOM1 </p>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+
+        <!-- banner_e -->
+
+        <!-- section1_s -->
+        <div id="contents1">
+          
+            <div class="room-slider">
+                <div class="room-container">
+                    <div class="room-item">
+                        <img src="./images/ma.jpg" alt="디럭스 룸">
+                        <div class="room-info">
+                            <h3>Predidetial Pool Villa</h3>
+                            <p class="height">크기 : 350㎡ (침실2, 거실1, 욕실2, 프라이빗 풀1)
+                                <br>정원 : 4명(350㎡)
+                                <br>객실 수 : 2</p>
+                        </div>
+                    </div>
+                    <div class="room-item">
+                        <img src="./images/ma2.jpg" alt="스위트 룸">
+                        <div class="room-info">
+                            <h3>Deluxe Pool Villa</h3>
+                            <p class="height">크기 : 320㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                                <br>정원 : 2명(350㎡)
+                                <br>객실 수 : 2</p>
+                        </div>
+                    </div>
+                    <div class="room-item">
+                        <img src="./images/ma3.jpg" alt="패밀리 룸">
+                        <div class="room-info">
+                            <h3>Wellbeing Sanctuary Pool Villa</h3>
+                            <p class="height">크기 : 320㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                                <br>정원 : 2명(350㎡)
+                                <br>객실 수 : 2</p>
+                        </div>
+                    </div>
+                    <div class="room-item">
+                        <img src="./images/ma4.jpg" alt="프리미엄 룸">
+                        <div class="room-info">
+                            <h3>Horizon Hillcrest Pool Villa</h3>
+                            <p class="height">크기 : 320㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                                <br>정원 : 2명(350㎡)
+                                <br>객실 수 : 2</p>
+                        </div>
+                    </div>
+                    <div class="room-item">
+                        <img src="./images/room21.jpeg" alt="펜트하우스">
+                        <div class="room-info">
+                            <h3>Hillcrest Pool Villa</h3>
+                            <p class="height">크기 : 320㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                                <br>정원 : 2명(350㎡)
+                                <br>객실 수 : 2</p>
+                        </div>
+                    </div>
+                  
+                    <div class="room-item">
+                        <img src="./images/ma.jpg" alt="디럭스 룸">
+                        <div class="room-info">
+                            <h3>Predidetial Pool Villa</h3>
+                            <p class="height">크기 : 320㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                                <br>정원 : 2명(350㎡)
+                                <br>객실 수 : 2</p>
+                        </div>
+                    </div>
+                    <div class="room-item">
+                        <img src="./images/ma2.jpg" alt="스위트 룸">
+                        <div class="room-info">
+                            <h3>Deluxe Pool Villa</h3>
+                            <p class="height">크기 : 320㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                                <br>정원 : 2명(350㎡)
+                                <br>객실 수 : 2</p>
+                        </div>
+                    </div>
+                    <div class="room-item">
+                        <img src="./images/ma3.jpg" alt="패밀리 룸">
+                        <div class="room-info">
+                            <h3>Wellbeing Sanctuary Pool Villa</h3>
+                            <p class="height">크기 : 320㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                                <br>정원 : 2명(350㎡)
+                                <br>객실 수 : 2</p>
+                        </div>
+                    </div>
+                    <div class="room-item">
+                        <img src="./images/ma4.jpg" alt="프리미엄 룸">
+                        <div class="room-info">
+                            <h3>Horizon Hillcrest Pool Villa</h3>
+                            <p class="height">크기 : 320㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                                <br>정원 : 2명(350㎡)
+                                <br>객실 수 : 2</p>
+                        </div>
+                    </div>
+                    <div class="room-item">
+                        <img src="./images/room21.jpeg" alt="펜트하우스">
+                        <div class="room-info">
+                            <h3>Hillcrest Pool Villa</h3>
+                            <p class="height">크기 : 320㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                                <br>정원 : 2명(350㎡)
+                                <br>객실 수 : 2</p>
+                        </div>
+                    </div>
+                  
+                </div>
+                
+            </div>
+        </div>
+        <!-- section1_e -->
+        <!-- section2_s -->
+        <div id="contents2">
+            <!-- 높이 너비 가운데  -->
+
+            <h2 class="hotel_name"><span>P</span>RESIDENTIAL <span>P</span>OOL <span>V</span>ILLA <span>H</span>OUSE
+            </h2>
+            <div class="con2_flexbox">
+                <div class="con2_L">
+                    <ul class="board">
+
+                        <li class="on">
+                            <a href="javascript:return false;">ROOM</a>
+                            <div class="notice">
+                                <img src="./images/rooms.png" alt="room">
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="javascript:return false;">POOL</a>
+                            <div class="gallery">
+                                <img src="./images/poole.jpg" alt="pool">
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:return false;">GARDEN</a>
+                            <div class="gallery">
+                                <img src="./images/gd.jpg" alt="garden">
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+
+
+
+                </div>
+                <div class="con2_R">
+                    <p class="privacy">(NEW)완벽한 프라이버시, 프레지덴셜 풀빌라 하우스</p>
+                    <p class="living">"넓은 거실과 세련된 인테리어가 돋보이는 프레지덴셜 풀빌라 하우스는 전용 수영장과 정원으로 둘러싸여 있어 외부의 시선을 완벽히 차단합니다. 각
+                        침실은 킹사이즈 침대와 고급 침구로 꾸며져 있으며, 욕실에는 스파 욕조와 최고급 욕실 용품이 구비되어 있습니다. 두 개의 전용 테라스에서 탁 트인 전망을 감상하며 숲의
+                        아름다움을 만끽하세요."</p>
+                    <p class="info"><span class="point">크기 </span> 451m² (거실 2, 침실 2, 욕실 2, 실내 수영장 )</p>
+                    <p class="info"> <span class="point">형태 </span> 복층 </p>
+                    <p class="info"> <span class="point">객실수</span> 2 </p>
+                    <p class="info"><span class="point">정원</span> 성인 4명(최대 6명) <span class="light"> * 추가 투숙객의 경우
+                            70,000원(VAT 포함) 부과 (침구세트제공) </span></p>
+
+
+                    <p class="info"><span class="point">혜택 사항 </span> A Spirit of Journey(실내/야외 수영장) 1박당 1회 무료이용
+                    </p>
+                    <ul class="include">
+                        <li>
+                            <img src="./images/icon_tv.png" alt="icon">
+                            <p class="free">55인치 LCD TV</p>
+                        </li>
+
+
+                        <li>
+                            <img src="./images/icon_wifi.png" alt="icon">
+                            <p class="free">FREE WI-FI</p>
+                        </li>
+                        <li>
+                            <img src="./images/icon_mini_bar.png" alt="icon">
+                            <p class="free">MINI BAR</p>
+                        </li>
+                        <li>
+                            <img src="./images/icon_laundary.png" alt="icon">
+                            <p class="free">LAUNDARY SERVICE </p>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- section2_e -->
+        <!-- section3_e -->
+
+        <div id="contents3_wrap">
+            <!-- 높이 960px 너비 1320px  가운데-->
+            <p class="rv">POYCAN RESORT&VILLA</p>
+            <h1 class="room_intro">
+                ACCOMODATION
+            </h1>
+            <ul class="show_room">
+                <li>
+                    <div class="roomimg_box">
+                        <!-- 크기 381 400  -->
+                        <a href="#"><img src="./images/ma.jpg" alt="room"></a>
+                    </div>
+                    <div class="roomtext_box">
+                        <p class="room_name">Predidetial Pool Villa </p>
+                        <p class="room_exp">크기 : 350㎡ (침실2, 거실1, 욕실2, 프라이빗 풀1)
+                            <br>정원 : 4명(350㎡)
+                            <br>객실 수 : 2
+                        </p>
+                        <p class="room_button"><a href="#">VIEW MORE </p></a></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="roomimg_box">
+                        <!-- 크기 381 400  -->
+                        <a href="#"><img src="./images/ma3.jpg" alt="room"></a>
+                    </div>
+                    <div class="roomtext_box">
+                        <p class="room_name">Deluxe Pool Villa</p>
+                        <p class="room_exp">크기 : 320㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                            <br>정원 : 2명(350㎡)
+                            <br>객실 수 : 2
+                        </p>
+                        <p class="room_button"><a href="#">VIEW MORE</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="roomimg_box">
+                        <!-- 크기 381 400  -->
+                        <a href="#"><img src="./images/ma4.jpg" alt="room"></a>
+                    </div>
+                    <div class="roomtext_box">
+                        <p class="room_name">Wellbeing Sanctuary Pool Villa</p>
+                        <p class="room_exp">크기 : 280㎡ (침실1, 거실1, 욕실2, 프라이빗 풀1)
+                            <br>정원 : 3명(350㎡)
+                            <br>객실 수 : 2
+                        </p>
+                        <p class="room_button"><a href="#">VIEW MORE</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="roomimg_box">
+                        <!-- 크기 381 400  -->
+                        <a href="#"><img src="./images/room21.jpeg" alt="room"></a>
+                    </div>
+                    <div class="roomtext_box">
+                        <p class="room_name">Horizon Hillcrest Pool Villa</p>
+                        <p class="room_exp">크기 : 280㎡ (침실1, 거실1, 욕실1, 프라이빗 풀1)
+                            <br>정원 : 2명(350㎡)
+                            <br>객실 수 : 2
+                        </p>
+                        <p class="room_button"><a href="#">VIEW MORE</a></p>
+                    </div>
+                </li>
+            </ul>
+
+
+        </div>
+
+
+
+
+        <!-- footer_S -->
+
+        <div id="footer_wrap">
+            <!-- 높이 149 배경색 -->
+            <div class="footer">
+                <!-- 가운데 너비 1320 -->
+                <h1 class="footer_logo"><img src="./images/logo_w.png" alt="logo_w"></h1>
+                <ul class="sns">
+                    <li><a href="#"><img src="./images/icon_insta.png" alt="insta"></a></li>
+                    <li><a href="#"><img src="./images/icon_yt.png" alt="yt"></a></li>
+                    <li><a href="#"><img src="./images/icon_x.png" alt="x"></a></li>
+                    <li><a href="#"><img src="./images/icon_facebook.png" alt=""></a></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <script src="./js/script.js"></script>
+    <script src="./js/script (2).js"></script>
+    <script src="./js/script (4).js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <!-- java script -->
+    <script>
+        // 자동 슬라이드
+
+        const container = document.querySelector('.room-container');
+const items = document.querySelectorAll('.room-item');
+
+let currentIndex = 0;
+const totalItems = items.length / 2; // 실제 아이템 수
+const visibleItems = 4;
+let isDragging = false;
+let startX = 0;
+let currentTranslate = 0;
+let prevTranslate = 0;
+let animationID;
+
+// 슬라이더 업데이트 함수
+function updateSlider(smooth = true) {
+    const offset = -currentIndex * (100 / visibleItems);
+    container.style.transition = smooth ? 'transform 0.3s ease-out' : 'none';
+    container.style.transform = `translateX(${offset}%)`;
+
+    if (currentIndex >= totalItems) {
+        setTimeout(() => {
+            container.style.transition = 'none';
+            currentIndex = 0;
+            updateSlider(false);
+        }, 300);
+    } else if (currentIndex < 0) {
+        setTimeout(() => {
+            container.style.transition = 'none';
+            currentIndex = totalItems - 1;
+            updateSlider(false);
+        }, 300);
+    }
+}
+
+// 자동 슬라이드
+function autoSlide() {
+    currentIndex++;
+    updateSlider();
+}
+
+// 자동 슬라이드 간격 설정 (2초)
+let autoSlideInterval = setInterval(autoSlide, 2000);
+
+// 드래그 시작
+container.addEventListener('mousedown', (event) => {
+    isDragging = true;
+    startX = event.clientX;
+    prevTranslate = currentTranslate;
+    cancelAnimationFrame(animationID);
+    clearInterval(autoSlideInterval);
+});
+
+// 드래그 중
+container.addEventListener('mousemove', (event) => {
+    if (!isDragging) return;
+
+    const currentX = event.clientX;
+    const deltaX = currentX - startX;
+
+    currentTranslate = prevTranslate + deltaX / window.innerWidth * 100;
+    container.style.transition = 'none';
+    container.style.transform = `translateX(${currentTranslate}%)`;
+});
+
+// 드래그 종료
+container.addEventListener('mouseup', () => {
+    isDragging = false;
+
+    const threshold = 50 / visibleItems;
+    if (currentTranslate < prevTranslate - threshold) {
+        currentIndex++;
+    } else if (currentTranslate > prevTranslate + threshold) {
+        currentIndex--;
+    }
+
+    updateSlider();
+    autoSlideInterval = setInterval(autoSlide, 2000);
+});
+
+// 마우스가 컨테이너 밖으로 나갔을 때 드래그 종료 처리
+container.addEventListener('mouseleave', () => {
+    if (isDragging) {
+        isDragging = false;
+        updateSlider();
+        autoSlideInterval = setInterval(autoSlide, 2000);
+    }
+});
+
+// 초기 슬라이더 위치 설정
+updateSlider(false);
+
+//달력 START
+$(function () {
+        // 날짜 선택기 기본 설정
+        $.datepicker.setDefaults({
+            dateFormat: 'yy-mm-dd', // 날짜 입력 형식
+            monthNamesShort: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'], // 월 이름
+            monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'], // 월 Tooltip
+            dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'], // 요일 이름
+            dayNames: ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'] // 요일 Tooltip
+        });
+
+        // #datepicker와 #datepicker1에 각각 Datepicker 적용
+        $("#datepicker").datepicker();
+        $("#datepicker1").datepicker();
+    });
+
+
+
+
+    </script>
+
+</body>
+
+</html>

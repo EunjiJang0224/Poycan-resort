@@ -1,0 +1,771 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    color: #4B413C;
+    font-family: Pretnendard;
+    font-size: 14px;
+    min-width: 1400px;
+}
+#body_wrap{
+    min-width: 1320px;
+    margin: 0 auto;
+}
+/* header_start */
+
+#header_header{
+    min-width: 1350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header_wrap {
+    height: 90px;
+ 
+    display: flex;
+    align-items: center;
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    width: 1320px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    align-items: center;
+    position: relative;
+}
+/* 햄버거 메뉴 */
+/*햄버거 버튼모양*/
+.slide-open{
+    position:fixed;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    cursor:pointer;
+    z-index:999999999;
+}
+.burgur{
+left: 35px;
+top: 40px;
+position: fixed;
+width: 25px;
+height: 3px;
+background: #000000;
+
+}
+.burgur .top-line{
+width: 25px;
+height: 3px;
+background-color: #000000;
+bottom: -8px;
+content: '';
+position: absolute;
+left: 0;
+-webkit-transition:  -webkit-transform .3s;
+transition: transform .3s;
+
+}
+.burgur .bot-line {
+width: 25px;
+height: 3px;
+background-color: #000000;
+top: -8px;
+content: '';
+position: absolute;
+left: 0;
+-webkit-transition:  -webkit-transform .3s;
+transition: transform .3s;
+}
+
+.burgur.on {
+width: 0;
+}
+.burgur.on .bot-line {
+-webkit-transform: translateY(10px) rotate(135deg);
+transform: translateY(10px) rotate(135deg);
+
+}
+.burgur.on .top-line{
+-webkit-transform: translateY(-5px) rotate(-135deg);
+transform: translateY(-5px) rotate(-135deg);
+}
+
+/*메뉴부분 모양*/
+.slide{
+    padding-top:60px;
+    width:20%;/*이 너비에 따라 보이는 부분이 변화함*/
+    position:fixed;
+    left:-100%;
+    top:0;
+    bottom:0;
+    z-index: 9999;
+    -webkit-transition: left .3s;
+    -moz-transition: left .3s;
+    -ms-transition: left .3s;
+    -o-transition: left .3s;
+    transition: left .3s;
+    background-color:#4b413c;
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.slide-title{
+    width:100%;
+    height:75px;
+    font-size:14px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+   
+}
+.slide_logo{
+    width: 120px;
+    margin-left: 14px;
+    opacity: 80%;
+}
+.slide_icon{
+    display: flex;
+}
+.slide_icon_globe{
+    margin: 0 15px;
+}
+.slide_logo img{
+    width: 100%;
+}
+.slide.on{
+    left:0;
+} 
+.slide>ul>li>a{
+    display:block;
+    width:100%;
+    padding:15px;
+     /* border-bottom:1px solid #e1e1e1;  */
+}
+.slide>ul>li{
+    background: url(../images/arrow_downside.png) no-repeat right 25px center;
+ 
+}
+.slide>ul>li:hover{
+    background-color: #8B8B8B;
+}
+
+/* search box */
+.search-box{
+    position: relative;
+    width: 120px;
+}
+.search-box input{
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 2px 3px;
+}
+.search-box img{
+    position: absolute;
+    top: 2px;
+    right: -5px;
+    z-index: 99999999;
+}
+/* hamberger menu_끝! */
+
+.logo.main {
+    margin-top: 12px;
+}
+
+.icon {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li a {
+    display: block;
+    margin: 0 35px;
+    color: #646464;
+    font-weight: 500;
+    padding-top: 10px;
+
+ 
+}
+.gnb li a:hover{color:#4B413C;}
+.solid{width:100%;
+		margin:auto;
+		margin-top:10px;
+        font-weight: 900;
+		height:5px;
+		background:#4b413cbb;
+		visibility:hidden;
+		opacity:0;
+		transform:scaleX(0);
+		transition-property:opacity, transform;
+		transition-duration:0.5s;}
+.gnb>li>a:hover .solid{transform:scaleX(1);
+						opacity:1;
+						visibility:visible;}	
+
+.gnb_icons {
+    display: flex;
+}
+
+.book {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.book a {
+    background-color: #4B413C;
+    padding: 10px 13px;
+    color: #FFFDFC;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.gnb_icons li a {
+    display: block;
+    margin: 0 5px;
+}
+
+/* header_end */
+/* banner_s */
+#main_banner{
+    height: 870px;
+    color: rgba(255, 255, 255, 0.842);
+ 
+    
+   
+}
+#main_banner h1{
+    font-style: italic;
+
+}
+.res_name2{
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: #0000001e 5px 5px 5px;
+    margin-bottom: 90px;
+}
+
+.mb {
+    height: 870px;
+}
+
+.res_info{
+   
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.mb .swiper-slide {
+    border-right: 1px solid #ffffff2b;
+    box-sizing: border-box;
+}
+
+.mb .swiper-slide::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    opacity: 0;
+}
+
+.mb .swiper-slide:hover::after {
+    opacity: 1;
+}
+
+.mb .swiper-slide:last-child {
+    border-right: none;
+}
+
+.text {
+    position: absolute;
+    top: 190px;
+    left: 40px;
+    z-index: 5;
+}
+
+
+
+
+
+.case1 {
+    background: url(../images/HotelChelsea_Banner_CafeChelsea_Hero.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.case2 {
+    background: url(../images/kr.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+.case3 {
+    background: url(../images/winerry.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.case4 {
+    background: url(../images/bakery.jpg) no-repeat center center;
+    background-size: cover;
+ }
+
+.case1 .bg1::after,
+.case2 .bg2::after,
+.case3 .bg3::after,
+.case4 .bg4::after {
+    opacity: 1;
+}
+
+@media (max-width:850px) {
+   
+    .bg1 {
+        background: url(./img/main1.jpg) no-repeat center center;
+    }
+
+    .mb .swiper-slide::after {
+        backdrop-filter: none;
+        background: none;
+    }
+
+    .bg2 {
+        background: url(./img/main2.jpg) no-repeat center center;
+    }
+
+    .bg3 {
+        background: url(./img/main3.jpg) no-repeat center center;
+    }
+
+    .bg4 {
+        background: url(./img/main4.jpg) no-repeat center center;
+    }
+}
+/* banner_e */
+/* contents1_s */
+
+#contents1_wrap{
+    height: 3980px;
+    position: relative;
+    background-color: #fffcf5d4;
+    display: flex;
+    
+}
+
+.res_name{
+    margin-bottom: 180px;
+}
+.left_wrap{
+    width: 20%;
+}
+.blank{
+   height: 180px;
+}
+.upper_left{
+    width: 95%;
+    position: sticky;
+    height: 20px;
+    top: 50px;
+    left: 0;
+    z-index: 55;
+   text-align: center;
+   
+}
+.upper_left h2{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+   
+   
+}
+.reservation{
+    letter-spacing: 2px;
+    background-color:  #4B413C;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 25px 95px;
+    
+}
+.reservation:hover{
+ 
+    background-color: #000000d4;
+    text-decoration: underline;
+}
+.reserve_wrap{
+    padding:0px 25px;
+    text-align: left;
+}
+
+.meal{
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+   
+}
+.time{
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  
+}
+.number{
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px 20px 7px 40px;
+    margin-left: 65px;
+    align-items: center;
+    margin-top: 50px;
+    color: rgba(0, 0, 0, 0.733);
+    background: url(../images/icon_contact.png) #fffcf5d4 no-repeat left 15px top 12px; 
+}
+.upper_right{
+    margin-right: 80px;
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    height: 3280px;
+    /* background: url(../images/bar1.jpg) #fffcf5d4 no-repeat center top 180px ; */
+  
+    
+}
+.photo_wrap{
+    background: url(../images/bar2.jpg) #000000 no-repeat center top;
+    height: 860px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+/* .about_wrap{
+    text-align: left;
+} */
+.about{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 80px;
+    margin-top: 200px;
+}
+.res_title{
+    font-size: 105px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    padding-top: 150px;
+}
+.first{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.second{
+    margin-top: 35px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+/* tab */
+ul.tabs {
+  
+    padding: 0;
+    float: left;
+    list-style: none;
+    /* height: 32px; /*--Set height of tabs--*/
+     */
+    width: 100%;
+    margin-left: 20px;
+}
+
+ul.tabs li {
+    float: left;
+    margin-right: 5px;
+    padding: 8px 12px;
+    /* height: 31px; */
+    line-height: 31px; /*--Vertically aligns the text within the tab--*/
+    font-weight: 500;
+    border-left: none;
+    margin-bottom: -1px; /*--Pull the list item down 1px--*/
+    overflow: hidden;
+    position: relative;
+   background-color: #fffcf5d4;
+   border: #4B413C 2px solid;
+   color: #000;
+  
+   
+}
+
+ul.tabs li a {
+    text-decoration: none;
+
+    display: block;
+    font-size: 1.2em;
+   
+    /*--Gives the bevel look with a 1px white border inside the list item--*/
+    
+    outline: none;
+}
+
+html ul.tabs li.active  {
+     /*--Makes sure that the active tab does not listen to the hover properties--*/
+       background-color: #4B413C;
+       color: white;
+    /*--Makes the active tab look like it's connected with its content--*/
+ 
+}
+
+
+/*Tab Conent CSS*/
+.tab_container {
+   
+    border-top: none;
+    overflow: hidden;
+    clear: both;
+    float: left; 
+    width: 100%;
+    background-color: #fffcf5d4;;
+}
+.tab_content {
+    padding: 20px;
+    font-size: 1.2em;
+    text-align: left;
+}
+.menu_wrap{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.menu_pt1{
+    width: 230px;
+    height: 170px;
+    background: url(../images/salade-nicoise-haricots-thon.jpg) no-repeat center;
+    background-size: cover;
+}
+.menu_pt2{
+    width: 230px;
+    height: 170px;
+    background: url(../images/escargo.jpg) no-repeat center;
+    background-size: cover;
+}
+.menu_pt3{
+    width: 230px;
+    height: 170px;
+    background: url(../images/onion.jpg) no-repeat center;
+    background-size: cover;
+}
+.menu_pt4{
+    width: 230px;
+    height: 170px;
+    background: url(../images/kisshu.jpg) no-repeat center;
+    background-size: cover;
+}
+.menu_pt5{
+    width: 230px;
+    height: 170px;
+    background: url(../images/beef.jpg) no-repeat center;
+    background-size: cover;
+}
+.menu_pt6{
+    width: 230px;
+    height: 170px;
+    background: url(../images/gratain.png) no-repeat center;
+    background-size: cover;
+}
+.menu_pt7{
+    width: 230px;
+    height: 170px;
+    background: url(../images/tartar.jpg) no-repeat center;
+    background-size: cover;
+}
+.menu_pt8{
+    width: 230px;
+    height: 170px;
+    background: url(../images/rata.jpg) no-repeat center;
+    background-size: cover;
+}
+.menu_pt9{
+    width: 230px;
+    height: 170px;
+    background: url(../images/foto.jpg) no-repeat center;
+    background-size: cover;
+}
+.menu_pt10{
+    width: 230px;
+    height: 170px;
+    background: url(../images/tarte.jpg) no-repeat center;
+    background-size: cover;
+}
+.menu_pt11{
+    width: 230px;
+    height: 170px;
+    background: url(../images/ecla.jpg) no-repeat center;
+    background-size: cover;
+}
+.menu_pt12{
+    width: 230px;
+    height: 170px;
+    background: url(../images/mille.jpg) no-repeat center;
+    background-size: cover;
+}
+.menu_pt13{
+    width: 230px;
+    height: 170px;
+    background: url(../images/ka.jpg) no-repeat center;
+    background-size: cover;
+}
+.menu_tt{
+    margin-left: 20px;
+}
+.menu_name{
+    font-weight: 800;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-size: 22px;
+}
+.menu_acc{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.menu_ing{
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 29px;
+    color: #646464a9;
+
+}
+
+
+
+
+/* contents1_e */
+/* contents2_s */
+
+#contents2_wrap{
+    height: 3200px;
+    position: relative;
+    background-color: #fffcf5d4;
+    display: flex;
+}
+
+
+.left_wrap2{
+    width: 20%;
+}
+
+.upper_left2{
+    width: 100%;
+    position: sticky;
+    height: 20px;
+    top: 50px;
+    left: 0;
+    z-index: 55;
+   text-align: center;
+   
+}
+.upper_left2 h2{
+    font-size: 44px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+   
+}
+/* 별점 */
+.about2{
+    margin-top: 150px;
+}
+.review-slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.review-slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.review-slide {
+    min-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.review-profile img{
+    width: 500px;
+    height: 340px;
+}
+.user-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.review-rating{
+    padding: 10px 0;
+}
+.review-date{
+    margin-top: 20px;
+    opacity: 70%;
+}
+ /* footer_s */
+#footer_wrap{
+    height: 149px;
+    background-color: #4B413C;
+   
+}
+.footer{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.sns{
+    display: flex;
+    margin-top: 5px 20px;
+    border-radius: 20px;
+}
+.sns li{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+.sns li img{
+    width: 100%;
+    height: 100%;
+}
+.sns li:nth-child(2){
+    width: 40px;
+    height: 30px;
+    margin-top: 2px;
+}
